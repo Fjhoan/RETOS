@@ -66,7 +66,6 @@ public class Reto7 {
 // imponer la condicion de ganar o perder
         if (jugador == computadora) {
             System.out.println("Empate!");
-            juegosJugados = juegosJugados + 1;
             System.out.println("Se han jugado: "+ juegosJugados);
         } else if (jugador == 1 && computadora == 3 || jugador == 2 && computadora == 1 || jugador == 3 && computadora == 2) {
             System.out.println("Ganaste!");
