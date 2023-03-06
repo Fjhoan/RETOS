@@ -22,8 +22,6 @@ public class Reto5 {
             precioProducto = Lectura.nextDouble();
             subTotal = precioProducto + subTotal;
             System.out.println("Su producto es: " + nomProducto + "\nsu valor es:" + precioProducto);
-            System.out.println("Desea registrar otro producto\n1. Si 2.No");
-            cantidadProductoReg = Lectura.nextInt();
         }
             valorIva = subTotal * 0.19;
             valorComp = subTotal + valorIva;
