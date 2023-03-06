@@ -1,6 +1,8 @@
-       import java.util.Scanner;
-import java.util.Random;public class Reto4 {
-    public static void main(String[] args) {
+import java.util.Scanner;
+import java.util.Random;
+
+public class Reto4 {
+     public static void main(String[] args) {
         int jugador, computadora;
         double valorApuesta = 0,saldoInicial = 0, saldo = 0,sumaGanada = 0,sumaPerdida = 0;
         String nomUsu;
