@@ -15,7 +15,7 @@ public class Reto5 {
         System.out.println("Digite la cantidad de los productos: ");
         cantidadProduc = Lectura.nextInt();
 
-        while(cantidadProductoReg == 1){
+        for(cantidadProductoReg = 1;cantidadProductoReg <= cantidadProduc; cantidadProductoReg++){
             System.out.println("Digite nombre del producto: ");
             nomProducto = Lectura.next();
             System.out.println("Digite el precio del producto: ");
@@ -24,7 +24,6 @@ public class Reto5 {
             System.out.println("Su producto es: " + nomProducto + "\nsu valor es:" + precioProducto);
             System.out.println("Desea registrar otro producto\n1. Si 2.No");
             cantidadProductoReg = Lectura.nextInt();
-            cantidadProduc ++;
         }
             valorIva = subTotal * 0.19;
             valorComp = subTotal + valorIva;
