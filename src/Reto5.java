@@ -27,6 +27,6 @@ public class Reto5 {
             valorIva = subTotal * 0.19;
             valorComp = subTotal + valorIva;
             System.out.println("El total de su compra es de: " + valorComp + " usted registro el total de: " + cantidadProduc + " productos");
-        Lectura.close();
+            Lectura.close();
     }
 }
