@@ -8,7 +8,7 @@ public class Reto1 {
         float gradosKel;
         Scanner Lectura = new Scanner(System.in);
         
-        System.out.println("Digite los grados para precalentar el horno (Fahrenheit):");
+        System.out.println("Dígite los grados para precalentar el horno (Fahrenheit):");
         preCalentado = Lectura.nextInt();
 
         gradosKel = ((preCalentado - 32) * 5/9 + 273.15f);
